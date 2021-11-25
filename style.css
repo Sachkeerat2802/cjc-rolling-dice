@@ -220,3 +220,11 @@ img {
 .modal p {
     font-size: 1.8rem;
 }
+
+ul {
+    padding: 2rem 0 0 3rem;
+}
+
+li {
+    font-size: 1.8rem;
+}
