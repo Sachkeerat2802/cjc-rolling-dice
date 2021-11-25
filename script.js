@@ -80,3 +80,14 @@ document.querySelector(".btn--hold").addEventListener("click", function () {
         alert("Game ended! Reset to play another!");
     }
 });
+
+// Events to close modal
+document.querySelector(".modal__close").addEventListener("click", function () {
+    document.querySelector(".modal").classList.add("hidden");
+    document.querySelector(".overlay").classList.add("hidden");
+});
+
+document.querySelector(".overlay").addEventListener("click", function () {
+    document.querySelector(".modal").classList.add("hidden");
+    document.querySelector(".overlay").classList.add("hidden");
+});
